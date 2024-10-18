@@ -1,0 +1,32 @@
+body {
+    background-color: #000; /* Warna latar belakang hitam */
+    color: #fff; /* Warna teks putih */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.7)); /* Gradient hitam */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ff6347; /* Warna merah */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
